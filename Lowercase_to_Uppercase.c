@@ -3,9 +3,9 @@
 int main() {
 
     char x;
-    printf("grel tar: ");
+    printf("put a letter: ");
     scanf("%c", &x);
-    printf("%c", x+32);
+    printf("%c", x-32);
     return 0;
 
 }
