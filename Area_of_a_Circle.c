@@ -4,7 +4,7 @@
 int main() {
 
     float r;
-    printf("Grel diametry: ");
+    printf("put a circle number: ");
     scanf("%f", &r);
     printf("%f", PI*r*r);
     return 0;
