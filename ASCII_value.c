@@ -3,9 +3,9 @@
 int main() {
 
     char x;
-    printf("Grel cankacats tar: ");
+    printf("put any symbol: ");
     scanf("%c", &x);
-    printf("ASCII arzhek: %d\n", x);
+    printf("ASCII value: %d\n", x);
     return 0;
 
 }
