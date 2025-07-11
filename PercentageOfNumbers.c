@@ -2,8 +2,8 @@
 
 int main() {
 
-    int number;
-    printf("Grel tiv: ");
+    int number = 0;
+    printf("put number: ");
     scanf("%d", &number);
     printf("%d", number * number * number);
     return 0;
