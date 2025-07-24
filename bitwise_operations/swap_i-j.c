@@ -8,9 +8,9 @@ int main(){
     
     	scanf("%d %d", &i, &j);
     	
-	i = i ^ j
-	j = i ^ j
-	i = i ^ j
+	i = i ^ j;
+	j = i ^ j;
+	i = i ^ j;
 	
 	printf("Result: %d, %d\n", i, j);
     
