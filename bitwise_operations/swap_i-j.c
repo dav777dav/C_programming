@@ -3,19 +3,16 @@
 int main(){
 	printf("Swap the numbers: ");
 	
-	int num = 0;
 	int i = 0;
 	int j =0;
     
-    	scanf("%d %d %d", &num, &i, &j);
+    	scanf("%d %d", &i, &j);
     	
-	i = (num >> i) & 1;
-    	j = (num >> j) & 1;    
-    	
-	num ^= (i << j) | (j << i);
-    	num ^= (j << i) | (i << j);    
+	i = i ^ j
+	j = i ^ j
+	i = i ^ j
 	
-	printf("Result: %d\n", num);
+	printf("Result: %d, %d\n", i, j);
     
 	return 0;
 }
