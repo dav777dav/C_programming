@@ -2,14 +2,15 @@
 
 int main() {
     int n = 0;
-    int arr[n] = {};
     
     printf("Enter an array size: ");
     scanf("%d", &n);
+
+    int arr[n];
     
     for(int i = 0; i < n; i++) {
         printf("Enter %d-th elements: ", i + 1);
-        scanf("%d", arr + i);
+        scanf("%d", &arr[i]);
     }
     
     int *max = arr; 
@@ -19,7 +20,7 @@ int main() {
         if(*(arr + i) > *max){
             max = arr + i;
         }
-        else{ 
+        if(*(arr + i) < *min) {
             min = arr + i;
         }
     }
