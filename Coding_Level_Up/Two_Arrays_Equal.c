@@ -14,10 +14,10 @@ int main() {
     int size = 3;
 
     if (arraysEqual(arr1, arr2, size)) {
-        printf("Arrays are equal\n");
+        printf("Arrays are equal.\n");
     }
     else {
-        printf("Arrays are not equal\n");
+        printf("Arrays aren't equal.\n");
     }
     
     return 0;
