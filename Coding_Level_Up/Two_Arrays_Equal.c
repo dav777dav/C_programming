@@ -13,10 +13,12 @@ int main() {
     int arr2[] = {1, 2, 3};
     int size = 3;
 
-    if (arraysEqual(arr1, arr2, size))
+    if (arraysEqual(arr1, arr2, size)) {
         printf("Arrays are equal\n");
-    else
+    }
+    else {
         printf("Arrays are not equal\n");
-
+    }
+    
     return 0;
 }
